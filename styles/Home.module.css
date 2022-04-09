@@ -65,6 +65,18 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
+.buttonContainer {
+  display: flex;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/* WalletMultiButton */
+.buttonContainer > * {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 .grid {
   display: flex;
   align-items: center;
